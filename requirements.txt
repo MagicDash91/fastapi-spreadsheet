@@ -1,0 +1,17 @@
+python-multipart
+langchain-google-genai
+langchain
+langchain-community
+unstructured
+openpyxl
+python-magic
+jinja2
+nest-asyncio
+faiss-cpu
+tiktoken
+networkx
+pandas
+pydantic
+uvicorn
+fastapi
+starlette
