@@ -41,7 +41,7 @@ async def analyze_csv(
         df.to_csv(result_csv_path, index=False)
         
         # Configure the Google Generative AI with the provided API key
-        llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash-latest", google_api_key=api_key)
+        llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key=api_key)
         
         # Load the CSV file and process it with the LLM
         loader = UnstructuredCSVLoader(result_csv_path, mode="elements")
